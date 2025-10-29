@@ -32,3 +32,7 @@ codex-demo stats "Hallo Welt Hallo"
 ```bash
 pytest
 ```
+
+## Änderungen auf GitHub hochladen
+
+Innerhalb dieser Umgebung wird kein Remote-Repository konfiguriert und es findet kein automatisches Pushen statt. Wenn du den Code nach GitHub übertragen möchtest, melde dich zunächst mit `git remote add origin <URL>` bei deinem eigenen Repository an und führe anschließend `git push origin <branch>` aus.
